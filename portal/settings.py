@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'portal.control',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -60,7 +61,7 @@ DATABASES = {
     'default': {
          'ENGINE': 'django.db.backends.mysql',
          'NAME':'portal',
-         'USER':'prt;',
+         'USER':'prtl',
          'PASSWORD':'Y3MAeX',
          'HOST':'localhost',
          'CHARACTER_SET':'UTF-8',
